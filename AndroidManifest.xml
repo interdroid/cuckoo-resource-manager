@@ -11,7 +11,8 @@
         android:label="Resource Manager" >
         <provider
             android:name="interdroid.cuckoo.ResourceManagerProvider"
-            android:authorities="interdroid.cuckoo.ResourceManager" />
+            android:authorities="interdroid.cuckoo.ResourceManager"
+            android:exported="true" />
 
         <activity
             android:name=".ResourcesList"
